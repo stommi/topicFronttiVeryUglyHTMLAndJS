@@ -1,0 +1,117 @@
+
+body {
+    color: #2d545e;;
+    background-color: floralwhite;
+    /*background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);*/
+}
+
+h1, h2 {
+    font-family: Verdana, Arial, sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid #2d545e;*/
+    font-size: 80%;
+    text-align: center;
+    width: 85%;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: Verdana, Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #2d545e;
+}
+
+
+h1 {
+    font-family: Verdana, Arial, sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    align-content: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+label {
+    text-align: center;
+    align-content: center;
+    font-family: Verdana, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hatpic {
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paneeli {
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.paneeli :link {
+    color: #2d545e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.paneeli :visited {
+    color: #2d545e;
+    font-weight: bold;
+}
+
+.paneeli :hover {
+    color: #2d545e;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.paneeli :active {
+    color: #2d545e;
+    font-weight: bold;
+    font-size: 120%;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .hatpic {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+

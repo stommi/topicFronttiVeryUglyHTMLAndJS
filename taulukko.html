@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taulukko</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="paneeli">
+
+    <a href="index.html">Etusivu</a>
+    <a href="taulukko.html">Aiheet</a>
+    <a href="muokkaus.html">Muokkaus</a>
+
+</div>
+<br><br><br><br>
+<p>Poista aihe:</p>
+<label>Id: <input type="number" id="nr1"></label>
+<br><input type="button" id="poistonappi" class="button" value="Poista"><br>
+
+<p>Aiheet:</p>
+<div id="inner-div">
+    <table id="lista">
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>description</th>
+            <th>additional source</th>
+            <th>complete</th>
+            <th>creation date</th>
+            <th>completion date</th>
+        </tr>
+    </table>
+</div>
+
+<script src="javastaulukko.js"></script>
+<script src="javastopicmuokkaus.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etusivu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="paneeli">
+    <a href="index.html">Etusivu</a>
+    <a href="taulukko.html">Aiheet</a>
+    <a href="muokkaus.html">Muokkaus</a>
+</div>
+
+<br><br><br><br>
+<img src=graduationHat.png class="hatpic"/>
+<br>
+<h1>Oppimispäiväkirja</h1>
+
+<p>Lisää aihe:</p>
+<form id="tiedonsyotto">
+    <label>Title: <input type="text" name="title" id="title" placeholder="Title"></label><br>
+    <label>Description: <input type="text" name="description" id="description" placeholder="Description"></label><br>
+    <label>Additional source: <input type="text" name="additionalsource" id="additionalsource"
+                                     placeholder="Additional source"></label><br>
+    <label>Complete:
+        <select name="complete" id="complete">
+            <option value="true">true</option>
+            <option value="false">false</option>
+        </select>
+    </label><br>
+
+    <label>Creation date: <input type="date" name="creationdate" id="creationdate" placeholder="Creation date"></label><br>
+
+    <label>Completion date: <input type="date" name="completiondate" id="completiondate" placeholder="Completion date"></label><br>
+
+    <input type="button" id="nappi" class="button" value="Lisää">
+    <br>
+    <input type="reset" value="Tyhjennä" class="button">
+</form>
+<br>
+<div id="outer-div">
+
+</div>
+
+<script src="javas.js"></script>
+
+</body>
+</html>

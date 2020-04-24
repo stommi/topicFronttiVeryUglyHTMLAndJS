@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muokkaus</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="paneeli">
+
+    <a href="index.html">Etusivu</a>
+    <a href="taulukko.html">Aiheet</a>
+    <a href="muokkaus.html">Muokkaus</a>
+
+</div>
+<br><br><br><br>
+
+<p>Muokkaa aihetta:</p>
+
+<label>Id:
+    <input type="number" id="nr2">
+</label><br>
+
+<label>Title:
+    <input type="text" name="title2" id="title2" placeholder="Title">
+</label><br>
+
+<label>Description:
+    <input type="text" name="description2" id="description2" placeholder="Description">
+</label><br>
+
+<label>Additional source:
+    <input type="text" name="additionalsource2" id="additionalsource2" placeholder="Additional source">
+</label><br>
+
+<label>Complete:
+    <select name="complete2" id="complete2">
+        <option value="true">true</option>
+        <option value="false">false</option>
+    </select>
+</label><br>
+
+<label>Creation date:
+    <input type="date" name="creationdate2" id="creationdate2" placeholder="Creation date">
+</label><br>
+
+<label>Completion date:
+    <input type="date" name="completiondate2" id="completiondate2" placeholder="Completion date">
+</label><br><br>
+
+<input type="button" id="muokkausnappi" class="button" value="Muokkaa"><br>
+
+<p>Aiheet:</p>
+<div id="inner-div">
+    <table id="lista">
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>description</th>
+            <th>additional source</th>
+            <th>complete</th>
+            <th>creation date</th>
+            <th>completion date</th>
+        </tr>
+    </table>
+</div>
+
+<script src="javastopicmuokkaus.js"></script>
+
+</body>
+</html>
